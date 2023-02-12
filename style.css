@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+    padding-left: 180px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: linear-gradient(90deg,  white 50%, #31c2fc 50%);
+}
+
+.header-logo{
+    height: 20px;
+}
+
+.header-div1{
+    display: flex;
+    gap: 32px;
+}
+
+.header-botao{
+    background: #000065;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+/* --------------------^^HEADER^^---------------------- */
+
+main{
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(90deg, white 50%, #31c2fc 50%);
+}
+
+.main-section1-titulo{
+    font-size: 50px;
+    color: #000065;
+    padding-bottom: 15px;
+}
+
+.main-section1-paragrafo{
+    padding-bottom: 15px;
+    color: #576557;
+}
+
+.main-section1-paragrafo2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #576557;
+}
+
+.section1-a{
+    padding-left: 25px;
+    color: #576557;
+}
+
+.section1-div{
+    display: flex;
+    gap: 15px;
+}
+
+.main-imagem{
+    height: 400px;
+    width: 400px;
+}
+
+.section1-botao{
+    background: #000065;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+    
+.artigo{
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.artigo-titulo{
+    font-size: 30px;
+    color: #00007f;
+    padding-bottom: 20px;
+}
+
+.artigo-imagem{
+    height: 50px;
+}
+
+.artigo-p{
+    color: #576557;
+}
+
+/* -------------------------^^ARTIGO1^^----------------------------------- */
+
+.artigo2{
+    font-family: 'Inter', sans-serif;
+    background: #c0fff4;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.artigo2-h4{
+    color: #4560b1;
+    padding-bottom: 10px;
+}
+
+.artigo2-h1{
+    color: #1d294b;
+    padding-bottom: 10px;
+}
+
+.artigo2-paragrafo{
+    padding-bottom: 15px;
+    color: #576557;
+}
+
+.artigo2-botao{
+    background: #191974;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.footer-logo{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-div2{
+    padding-right: 50px;
+}
+
+.input{
+    padding-left: 15px;
+    height: 50px;
+    width: 150px;
+}
+
+.footer-botao{
+    background: #000065;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    color: white;   
+}
